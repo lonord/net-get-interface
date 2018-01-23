@@ -1,0 +1,24 @@
+{
+  "name": "@lonord/net-get-interface",
+  "version": "1.0.0",
+  "description": "Get network interface list of linux",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rimraf lib && tsc -d",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@lonord.name:/~/net-get-interface.git"
+  },
+  "keywords": [
+    "network",
+    "interface"
+  ],
+  "author": "Loy B. <lonord@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^9.3.0",
+    "rimraf": "^2.6.2"
+  }
+}

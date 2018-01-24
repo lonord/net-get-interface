@@ -15,5 +15,5 @@ export default async function getInterface(): Promise<string[]> {
 	if (!stdout) {
 		return []
 	}
-	return stdout.split('\n').map((s) => s.trim())
+	return stdout.split('\n').filter((value) => !!value).map((s) => s.trim())
 }

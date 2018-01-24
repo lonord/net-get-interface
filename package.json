@@ -1,6 +1,6 @@
 {
   "name": "@lonord/net-get-interface",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get network interface list of linux",
   "main": "lib/",
   "types": "lib/",

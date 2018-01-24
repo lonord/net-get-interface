@@ -17,7 +17,8 @@
         "indent": [
             true,
             "tabs"
-        ]
+        ],
+        "no-console": false
     },
     "rulesDirectory": []
 }

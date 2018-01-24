@@ -1,8 +1,9 @@
 {
   "name": "@lonord/net-get-interface",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get network interface list of linux",
-  "main": "lib/index.js",
+  "main": "lib/",
+  "types": "lib/",
   "scripts": {
     "build": "rimraf lib && tsc -d",
     "prepublishOnly": "npm run build"
